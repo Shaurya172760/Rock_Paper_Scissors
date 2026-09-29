@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.choiceBtn {
+    width: 120px;
+    height: 120px;
+    margin: 0px 5px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+.choiceImg {
+    height: 50px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.result {
+    font-size: 1.6rem;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.score {
+    margin-top: 40px;
+}
+
+.resetBtn, .autoPlayBtn {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: semi-bold;
+    margin-right: 5px;
+}
+
+.resetBtn:hover, .autoPlayBtn:hover {
+    background-color: rgb(220, 220, 220);
+    transition: all 0.5s smooth;
+}
